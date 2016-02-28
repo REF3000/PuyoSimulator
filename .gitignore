@@ -1,0 +1,13 @@
+/Release/
+
+/Debug/
+
+/ipch/
+
+/replay/
+PuyoSimu.opensdf
+PuyoSimu.sdf
+PuyoSimu.suo
+PuyoSimu.vcxproj.filters
+PuyoSimu.vcxproj.user
+Log.txt
