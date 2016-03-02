@@ -407,7 +407,7 @@ static void update_select_pos(){
 		if( dx>=0 && dx<=m_next_size*CELL_W )
 			 m_select_next_x = dx/CELL_W;
 		else m_select_next_x = -1;
-		if( dy>=0 && dy<=CELL_H*m_next_size )
+		if( dy>=0 && dy<=CELL_H*2 )
 			 m_select_next_y = dy/CELL_H;
 		else m_select_next_y = -1;
 		// F‘I‘ð—Ìˆæã
