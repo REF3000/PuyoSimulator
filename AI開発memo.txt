@@ -1,0 +1,17 @@
+Visual C++ を使います
+インストール済みならPuyoSimu.sln を開いてレッツ開発
+
+※AIを追加する時やること
+1. AI用の関数の作成
+2. AiManeger.cppの編集
+
+AiManeger.cpp見ればやることはだいたいわかる
+AI_○○.cppはいろいろAIのアルゴリズム書き散らしたもの
+参考になるかもしれない
+AI_random.cpp
+AI_fire_max.cpp
+AI_fire_max2.cpp
+AI_simple.cpp
+の順に見るといいかもしれない
+
+PuyoAI.hを見ると便利関数が落ちてるかも
