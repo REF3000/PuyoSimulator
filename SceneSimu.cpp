@@ -715,10 +715,10 @@ void update_support_info(){
 	m_support_field = tmp;
 }
 
-extern void pm_test( Field field );
-void debug(){
+extern void pm_test( Puyo::Field field, Puyo::Next next );
 
-	pm_test( m_field );
+void debug(){
+	pm_test( m_field, m_next );
 
 #if 0
 	Field field = m_field;
